@@ -1,0 +1,28 @@
+{
+  "name": "taskmaster-pro",
+  "version": "1.0.0",
+  "description": "Learning Node.js Event Loop through a real project",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Test coming soon\"",
+    "load-test": "echo \"Load tests coming soon\"",
+    "monitor": "node monitoring/external-monitor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "multer": "^2.0.1",
+    "pdf-parse": "^1.1.1",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
