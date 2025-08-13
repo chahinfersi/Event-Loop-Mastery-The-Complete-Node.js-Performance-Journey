@@ -14,7 +14,7 @@
 
 ## 🏃‍♂️ Quick Start
 ```bash
-git clone [repo]
+git clone https://github.com/chahinfersi/Event-Loop-Mastery-The-Complete-Node.js-Performance-Journey.git
 cd taskmaster-pro
 npm install
 npm run dev
